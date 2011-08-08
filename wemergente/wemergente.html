@@ -1,0 +1,42 @@
+
+<html>
+<head>
+<title>Abre ventana emergente</title>
+
+</head>
+<p align="center"><b>Abre ventana emergente
+<script LANGUAGE="JavaScript">
+<!--
+
+// Copyright (c) 2000 internet.com Corp. 
+// http://www.webreference.com/js/
+// License is granted if and only if this entire
+// copyright notice is included. By Tomer Shiran.
+
+function launch(newURL, newName, newFeatures, orgName) {
+  var remote = open(newURL, newName, newFeatures);
+  if (remote.opener == null)
+    remote.opener = window;
+  remote.opener.name = orgName;
+  return remote;
+}
+
+function launchRemote() {
+  myRemote = launch("http://www.franar.com.ve/index.php?option=com_content&view=article&id=66&Itemid=88", "myRemote", "height=400,width=410,channelmode=0,dependent=0,directories=1,fullscreen=0,location=1,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0", "myWindow");
+}
+
+// -->
+</script>
+</b>
+<body>
+
+</p>
+
+<form>
+  <p align="center"><input TYPE="button" VALUE="Abrir" onClick="launchRemote()"> </p>
+</form>
+<p align="center"><a HREF="javascript:launchRemote()">Abrir ventana emergente</a></p>
+
+</body>
+
+</html>

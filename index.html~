@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>Franar C.A. - Mapa de Distribuidores a Nivel Nacional</title>
+<link rel="stylesheet" href="../map/css/template.css" type="text/css" /></link>
+<link rel="stylesheet" type="text/css" href="css/imgzoom.css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.imgzoom.pack.js"></script>
+</head>
+
+<body>
+<img src="images/map_venezuela.png" width="450" height="382" alt="Mapa de Distribuidores a Nivel Nacional" longdesc="Mapa de Distribuidores a Nivel Nacional" />
+<div id="Layer1"><img  src="images/icon.png" alt="Trujillo" /></div>
+<div id="Layer2"><a href="images/images_conletras/carabobo_efecto.png"><img class="thumbnail" src="images/icon.png" alt="Carabobo" /></a></div>
+<div id="Layer3"><a href="images/images_conletras/aragua_efecto.png"><img class="thumbnail" src="images/icon.png" alt="Aragua" /></a></div>
+<div id="Layer4"><a href="images/images_conletras/miranda_efecto.png"><img class="thumbnail" src="images/icon.png" alt="Miranda" /></a></div>
+<div id="Layer5"><a href="images/images_conletras/distritocapital_efecto.png"><img class="thumbnail" src="images/icon.png" alt="Distrito Capital" /></a></div>
+<div id="Layer6"><a href="images/images_conletras/anzoategui_efecto.png"><img class="thumbnail" src="images/icon.png" alt="Anzoategui" /></a></div>
+<div id="Layer7"><a href="images/images_conletras/zulia_efecto.png"><img class="thumbnail" src="images/icon.png" alt="Zulia" /></a></div>
+<div id="Layer8"><a href="images/images_conletras/merida_efecto.png"><img class="thumbnail" src="images/icon.png" alt="Merida" /></a></div>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('img.thumbnail').imgZoom();
+  });
+</script>
+</body>
+</html>
