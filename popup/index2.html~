@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.2.6.js"></script>
+<script language="javascript">
+$( document ).ready( function() {
+	$("a[rel='pop-up']").click(function () {
+      	var caracteristicas = "height=700,width=800,scrollTo,resizable=1,scrollbars=1,location=0";
+      	nueva=window.open(this.href, 'Popup', caracteristicas);
+      	return false;
+ });
+});
+</script>
+</head>
+<body>
+<p><a href="ventana.html" rel="pop-up">ABRIR POP UP</a></p>
+</body>
+</html>
